@@ -17,10 +17,10 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if correctAnswer >= 0  && correctAnswer <= 1 {
+        if  correctAnswer <= 2 {
             answerLabel.text = "熱さが足りないぞ"
             answerImageVIew.image = UIImage(named: "logo.png")
-        } else if correctAnswer > 1 && correctAnswer <= 3{
+        } else if correctAnswer == 3{
             answerLabel.text = "もっと熱くなれるぞ！！"
             answerImageVIew.image = UIImage(named: "logo2.png")
         } else if correctAnswer == 4 {

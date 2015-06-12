@@ -143,6 +143,9 @@
                         <outletCollection property="choiceButtons" destination="v17-k1-R8h" collectionClass="NSMutableArray" id="zNv-6T-quQ"/>
                         <outletCollection property="choiceButtons" destination="2Ww-po-kx7" collectionClass="NSMutableArray" id="4Oh-Ia-0ce"/>
                         <outletCollection property="choiceButtons" destination="2B0-9v-eH4" collectionClass="NSMutableArray" id="1c9-Rk-60C"/>
+                        <outletCollection property="titleButtons" destination="kki-U3-jv0" collectionClass="NSMutableArray" id="xiu-pj-9da"/>
+                        <outletCollection property="titleButtons" destination="n7F-Li-K3q" collectionClass="NSMutableArray" id="2Np-JK-rGK"/>
+                        <outletCollection property="titleButtons" destination="MRD-48-CKy" collectionClass="NSMutableArray" id="j1b-P2-lLU"/>
                         <segue destination="owP-hA-BJF" kind="show" identifier="toResultView" id="xvM-JA-bwI"/>
                     </connections>
                 </viewController>

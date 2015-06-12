@@ -30,6 +30,7 @@ class QuizViewController: UIViewController {
     //選択肢のボタン
     @IBOutlet var choiceButtons: Array<UIButton>!
 
+    @IBOutlet var titleButtons: Array<UIButton>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,7 +55,7 @@ class QuizViewController: UIViewController {
         
         //選択肢のボタンにそれぞれ選択肢のテキストをセット
         for var i = 0; i < choiceButtons.count; i++ {
-            choiceButtons[i].setTitle(quizArray[random][i+1] as? String, forState: .Normal)
+            titleButtons[i].setTitle(quizArray[random][i+1] as? String, forState: .Normal)
             
             //どのボタンが押されたか判別するためのtagをセット
             choiceButtons[i].tag = i + 1;
